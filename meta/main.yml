@@ -1,7 +1,7 @@
 galaxy_info:
-  author: your name
-  description: your role description
-  company: your company (optional)
+  author: Rahul Bagal
+  description: This role will help you to install Java and also will help to check the java version installed in your host System.
+  company: ABC 
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
