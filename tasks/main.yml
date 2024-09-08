@@ -1,0 +1,21 @@
+---
+# tasks file for test
+ - name: Ping Test on all the Servers
+   ansible.builtin.ping:
+ - name: Installing Java
+   ansible.builtin.apt:
+     name: default-jdk
+ - name: Get the Java version
+   command: java -version
+   register: java_version_output
+   ignore_errors: yes
+
+ - name: Display Java version
+   debug:
+     var: java_version_output.stderr_lines
+
+
+
+
+
+       
